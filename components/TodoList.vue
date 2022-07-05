@@ -42,7 +42,6 @@
         />
         <input type="submit" class="p-2" value="Add Task" />
       </form>
-      {{ taskContent }}
     </div>
     <h2 v-if="loding" class="text-center">Loding...</h2>
     <div class="allTasks" v-if="allTasks.length">
